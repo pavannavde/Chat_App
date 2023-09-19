@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.signIn{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(120deg,rgb(128, 85, 185),rgb(56, 168, 140));
+}
+.signIn>h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+.signIn>p{
+    font-weight: 700;
+    font-size: 36px;
+    color: rgb(10, 54, 92);
+}
+#UNInput{
+    width:20vw;
+    height:5vh;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(45deg,rgb(191, 165, 219),rgb(150, 236, 213));
+    color:white;
+    font-size: 18px;
+    outline-color: transparent;
+}
+#btn{
+    width:150px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    background: linear-gradient(120deg,rgb(62, 18, 121),rgb(21, 94, 75));
+    border: none;
+    color: aliceblue;
+    transition: Scale 0.5s ease;
+}
+#btn:hover{
+    scale: 0.8;
+}
+
+/* --------------chat Room css---------- */
+.chatRoom{
+    display: none;
+    flex-direction: column;
+}
+.chatRoom>h1{
+ width:100vw;
+ height: 10vh;
+ background-color: black;
+ color:#fff;
+ text-align: center;
+ font-size: 36px;
+ padding-top: 10px;
+}
+.msgBox{
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    padding-top: 10px;
+    background-color: #e1e1e1;
+}
+.inputmsg{
+    width:100vw;
+    height: 7vh;
+    background-color: brown;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+.msg{
+    background-color: #DCF8C6;
+    width: fit-content;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    border:0.5px solid rgb(196, 188, 188);
+    border-radius: 7px 7px 7px 0px;
+    
+}
+.sentmsg{
+    align-self: flex-end;
+    border-radius: 7px 7px 0px 7px;
+
+}
+.inputmsg>input{
+    width:80%;
+    height: 70%;
+    padding-left: 20px;
+    border-radius: 50px;
+    outline:none;
+    border:none;
+}
+.inputmsg>button{
+    width:80px;
+    height: 70%;
+    background-color: rgb(42, 204, 42);
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 18px;
+    padding: 5px;
+}
+#user{
+    color:orangered;
+    font-size: 36px;
+    margin-left: 10px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
